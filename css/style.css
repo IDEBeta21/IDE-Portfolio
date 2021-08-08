@@ -17,7 +17,8 @@ ul {
 	padding: 0;
 }
 
-#landing{
+#landing, 
+#gallery{
 	height: 80vh;
 	/*Center the elements verticaly*/
 	display: flex;
@@ -26,9 +27,19 @@ ul {
 	align-items: center;
 }
 
+#gallery{
+	border-radius: 0.3rem;/*rem - relative to parent container -- 0.3 == 30%*/
+}
 
-
-
+.tools{
+	color: white;
+	/* Create a nice and clean section for the tools */
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+}
 
 
 
