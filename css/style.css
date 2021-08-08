@@ -2,7 +2,8 @@
 	font-family: 'Roboto', sans-serif;
 }
 
-h1, h2{
+h1, 
+h2{
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -16,7 +17,14 @@ ul {
 	padding: 0;
 }
 
-
+#landing{
+	height: 80vh;
+	/*Center the elements verticaly*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 
 
 
